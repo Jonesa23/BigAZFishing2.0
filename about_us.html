@@ -1,0 +1,78 @@
+<!DOCTYPE html> <!--REQUIRED: CONTENT HTML #1 , 2-18-25-->
+<html lang="en">
+<head> <!--REQUIRED: HEAD SEMANTIC ELEMENT  , 2-18-25-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--REQUIRED: VIEWPORT METADATA, 2-18-25-->
+    <meta name="description" content="Howdy, I am Jones, the creator of this awesome fishing website! Here, you'll learn a bit about my love for fishing, and how you can get started on your fishing ventures!"> <!--REQUIRED: DESCRIPTION METADATA , 2-18-25-->
+    <meta name="keywords" content="fishing, Arizona fishing, fishing tips, fishing tricks, fishing gear, fishing techniques, best fishing spots, catch and release, Arizona lakes, Arizona rivers, Arizona bass fishing, Arizona trout fishing"> <!--REQUIRED: KEYWORDS METADATA , 2-18-25-->
+    <meta name="author" content="Jones Allison"> <!--REQUIRED: AUTHOR METADATA, 2-18-25-->
+    <title>About Us</title>
+    <link rel="stylesheet" href="fopro.css">
+    <link rel="icon" type="image/jpeg" href="imagenes/fisherman.jpg">
+    <style>
+        .section-container {
+            max-width: 1000px;
+            margin: 50px auto;
+            padding: 20px;
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+
+        .section-container img {
+            max-width: 40%;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        .text-content {
+            flex: 1;
+            font-size: 1.2rem;
+            line-height: 1.6;
+            color: #2e4d31;
+        }
+
+        @media (max-width: 768px) {
+            .section-container {
+                flex-direction: column;
+                text-align: center;
+            } 
+
+            .section-container img {
+                max-width: 80%;
+            } 
+	</style>
+</head>
+<body> <!--REQUIRED: BODY SEMANTIC ELEMENT  , 2-18-25-->
+    
+    <nav class="navbar"> <!--REQUIRED: NAV SEMANTIC ELEMENT , 2-18-25--> <!--REQUIRED: NAV , 2-18-25-->
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about_us.html">About Us</a></li>
+            <li><a href="tips_and_tricks.html">Tips & Tricks</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section class="section-container about"> <!--REQUIRED: SECTION SEMANTIC ELEMENT  , 3-5-25-->
+        <img src="imagenes/Jones.jpg" alt="Jones catching a bass on the first cast of the afternoon"> <!--REQUIRED: image 1 of 5 , 3-5-25-->
+        <div class="text-content">
+            <h2>About Us!</h2>
+            <p>Fellow Arizona native Jones Allison started this webpage in order to help all anglers locally from Arizona and even outsiders fish in this state. Hailing from Mesa, Arizona, Jones Allison grew an unconditional love for the sport of fishing when he was very young, often fishing the local canals with his father during his adolescence. Jones has also experienced fishing outside of Arizona, some of his favorite places he has fished at are Alaska, Idaho, and the Florida Keys.</p>
+        </div>
+    </section>
+
+    <section class="section-container mission"> <!--REQUIRED: SECTION SEMANTIC ELEMENT  , 3-5-25-->
+        <div class="text-content">
+            <h2>Our Mission!</h2>
+            <p>Our mission is simply to help all anglers learn something new and to increase their love and passion for fishing in Arizona. The content in this webpage is mainly dedicated to those who are new to fishing, but even fishing veterans can learn a thing or two from this webpage! At first, fishing in Arizona may seem discouraging, and you might even get skunked some days. And for that reason we have created this webpage, to help Arizona anglers become prepared to tackle the waters and catch some fishies every dang time!</p>
+        </div>
+        <img src="imagenes/JonesSalmon.jpg" alt="Jones' first ever salmon catch in Alaska"> <!--REQUIRED: image 2 of 5 , 3-5-25-->
+    </section>
+
+    <footer class="footer"> <!--REQUIRED: FOOTER SEMANTIC ELEMENT  , 2-18-25-->
+        <p>&copy; 2025 BigAZFishing</p> <!--REQUIRED: USE OF SPECIAL CHARACTER , 2-18-25-->
+    </footer>
+
+</body>
+</html>
